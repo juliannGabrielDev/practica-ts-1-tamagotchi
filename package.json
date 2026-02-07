@@ -1,0 +1,20 @@
+{
+    "name": "practica-ts-1-tamagochi",
+    "version": "1.0.0",
+    "description": "",
+    "module": "src/index.ts",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "dev": "bun --watch src/index.ts",
+        "type-check": "tsc --noEmit",
+        "start": "bun src/index.ts",
+        "test": "bun test",
+        "format": "prettier --write ."
+    },
+    "devDependencies": {
+        "@types/bun": "latest",
+        "prettier": "^3.8.1",
+        "typescript": "^5"
+    }
+}
